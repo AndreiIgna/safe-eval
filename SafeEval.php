@@ -30,7 +30,7 @@ class SafeEval {
 
 	}
 
-	public function eval($expression) {
+	public function evaluate($expression) {
 		$tree = explode(' ', $expression);
 
 		while (count($tree) > 1) {
